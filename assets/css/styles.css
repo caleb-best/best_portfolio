@@ -1,9 +1,5 @@
 /* Global Selectors */
 
-img {
-    width: 10%;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +8,7 @@ img {
 }
 
 /* TYPOGRAPHY */
+
 h1, h2, h3, h4, p, a {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -45,6 +42,7 @@ a {
 }
 
 /* NAVIGATION */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -103,6 +101,7 @@ button:hover {
     background-color: rgb(240, 240, 240, 0.8);
 }
 
+
 /* LANDING PAGE */
 
 #landing {
@@ -141,3 +140,57 @@ button:hover {
     z-index: 0;
 }
 
+/* My Work Section Here */
+
+#myWork {
+    width: 90%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0 5%;
+}
+
+.workContainer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1566837945700-30057527ade0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+
+}
+
+.workContainer2, .workContainer3, .workContainer4 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    margin: 5px 0px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+
+}
+
+.workContainer2 {
+    background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80);
+
+}
+
+.workContainer3 {
+    background: url(https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+
+}
+
+.workContainer4 {
+    background: url(https://images.unsplash.com/photo-1554306274-f23873d9a26c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+
+}
