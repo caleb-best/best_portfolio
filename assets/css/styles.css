@@ -1,4 +1,4 @@
-
+/* Global Selectors */
 
 img {
     width: 10%;
@@ -8,13 +8,8 @@ img {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
-
-
-
-
-
-
 
 /* TYPOGRAPHY */
 h1, h2, h3, h4, p, a {
@@ -34,6 +29,16 @@ h2 {
     color: #fff;
 }
 
+h3 {
+    font-size: 1.75rem;
+    text-align: center;
+    color: #34558b;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 20px 0;
+   
+}
+
 a {
     text-decoration: none;
     color: rgb(255, 255, 255, 1);
@@ -48,6 +53,7 @@ header {
     background-color: #34558b;
     position: fixed;
     width: 100%;
+    z-index: 300;
 }
 
 .navlogo {
@@ -115,3 +121,23 @@ button:hover {
     margin-top: 50px;
     opacity: 95%;
 }
+
+/* ABOUT SECTION */
+
+#about {
+    width: 90%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#about img {
+    width: 45%;
+    border-radius: 20px;
+    transform: rotate(356deg);
+    margin: 50px;
+    z-index: 0;
+}
+
