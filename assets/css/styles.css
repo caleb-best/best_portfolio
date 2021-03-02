@@ -7,6 +7,7 @@
     
 }
 
+
 /* TYPOGRAPHY */
 
 h1, h2, h3, h4, h5, p, a {
@@ -252,10 +253,24 @@ button:hover {
     align-items: center;
     flex-direction: column;
 }
+.footerlinks {
+ margin: 20px 0;
+}
 
 .footerlinks ul li {
     display: inline;
     margin: 0 100px;
 }
 
+#footer p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.fab, .fas {
+    font-size: 30px;
+}
 
