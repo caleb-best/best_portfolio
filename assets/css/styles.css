@@ -56,8 +56,14 @@ h5 {
 
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255, 1);
+    color: #fff;
+    transition: all 0.3s ease 0s;
 }
+
+a:hover {
+    color: rgb(255, 255, 255, 0.7);
+}
+
 
 /* NAVIGATION */
 
@@ -69,7 +75,7 @@ header {
     background-color: #34558b;
     position: fixed;
     width: 100%;
-    z-index: 300;
+    z-index: 10;
 }
 
 .navlogo {
@@ -90,15 +96,7 @@ header {
     font-weight: 600;
 }
 
-.navlinks a {
-    transition: all 0.3s ease 0s;
-    
 
-}
-
-.navlinks a:hover {
-    background-color: rgb(255, 255, 255, 0.7);
-}
 
 button {
     padding: 9px 25px;
