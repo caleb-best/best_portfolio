@@ -422,6 +422,10 @@ button:hover {
     padding: 25px;
 }
 
+.hide {
+    display: none;
+}
+
 
 }/*1024px LAYOUT ENDS HERE  */
 
@@ -434,13 +438,60 @@ button:hover {
     display: none;
 }
 
-.hide {
+.hide, .hide1 {
     display: none;
 }
 
+#about {
+    width: 100%;
+    padding: 0 50px;
+    height: 40vh;
+}
 
+.headshot {
+    display: none;
+}
 
+#services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
 
+#services ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#services ul li {
+    width: 100%;
+
+}
+
+#myWork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.workContainer2, .workContainer3, .workContainer4 {
+    margin: 15px 0;
+    width: 100%;
+}
+
+#footer {
+    margin: 0;
+}
+
+#footer ul li {
+    margin: 0 20px;
+}
 
 }/*768px LAYOUT ENDS HERE  */
+
+
 
