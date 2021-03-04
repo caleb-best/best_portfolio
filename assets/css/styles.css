@@ -43,7 +43,7 @@ h4 {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 1px;
-    opacity: 80%;
+ 
 }
 
 h5 {
@@ -218,13 +218,13 @@ button:hover {
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+    padding: 20px;
 
 
 }
 
 .workContainer2 {
     background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80);
-
 
 }
 
@@ -237,6 +237,40 @@ button:hover {
     background: url(https://images.unsplash.com/photo-1554306274-f23873d9a26c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
 
 }
+
+.overlaytext h4 {
+    margin: 25px 0;
+}
+
+.overlaytext p {
+    margin-bottom: 50px;
+    line-height: 1.25;
+    color: #fff;
+}
+
+.overlaytext {
+    display: flex;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+    flex-direction: column;
+    text-align: center;
+    padding: 35px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+
+
+.overlaytext:hover {
+    opacity: 1;
+    
+}
+
+
+
+
 
 /* FOOTER STARTS HERE */
 
