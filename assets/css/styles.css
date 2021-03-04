@@ -206,7 +206,7 @@ button:hover {
     background-size: cover;
     margin-bottom: 40px;
     margin-top: 30px;
-
+    transition: background .5s ease;
 }
 
 .workContainer2, .workContainer3, .workContainer4 {
@@ -219,23 +219,32 @@ button:hover {
     background-size: cover;
     border-radius: 10px;
     padding: 20px;
-
-
+    
 }
+
 
 .workContainer2 {
-    background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80);
-
+    background: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80);
+    transition: background .5s ease;
+    background-size: cover;
 }
+
 
 .workContainer3 {
     background: url(https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
-
+    transition: background .5s ease;
+    background-size: cover;
 }
 
 .workContainer4 {
     background: url(https://images.unsplash.com/photo-1554306274-f23873d9a26c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    transition: background .5s ease;
+    background-size: cover;
+}
 
+.workContainer .overlaytext {
+    padding: 50px 200px;
+    margin: 50px;
 }
 
 .overlaytext h4 {
@@ -250,7 +259,6 @@ button:hover {
 
 .overlaytext {
     display: flex;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     cursor: pointer;
     flex-direction: column;
     text-align: center;
@@ -261,12 +269,27 @@ button:hover {
     transition: opacity 0.25s;
 }
 
-
+.overlaytext > * {
+    transform: translateY(50px);
+    transition: transform 0.25s;
+}
 
 .overlaytext:hover {
     opacity: 1;
-    
+  
 }
+
+.overlaytext:hover > * {
+    transform: translateY(0);
+}
+
+.workContainer:hover, .workContainer2:hover, .workContainer3:hover, .workContainer3:hover, .workContainer4:hover {
+    background: rgba(52, 85, 139, 1);
+    box-shadow:  0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+
+
 
 
 
