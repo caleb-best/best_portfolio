@@ -495,3 +495,64 @@ button:hover {
 
 
 
+/*480px LAYOUT STARTS HERE  */
+@media screen and (max-width: 480px) {
+
+.navlogo {
+    width: 10%;
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    
+}
+
+.navlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.navlinks li {
+    padding: 0 9px;
+    margin-bottom: 8px;
+}
+
+#landing {
+    height: 80vh;
+    padding: 50px 50px;
+    width: 150%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2em;
+    
+}
+
+#about {
+    height: 100%;
+}
+
+#services {
+    margin: 0px;
+    width: 107%;
+}
+
+#myWork {
+    width: 95%;
+}
+
+#footer {
+    width: 106%;
+}
+
+
+}/*480px LAYOUT ENDS HERE  */
