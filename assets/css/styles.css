@@ -206,6 +206,7 @@ button:hover {
     background-size: cover;
     margin-bottom: 40px;
     margin-top: 30px;
+    border-radius: 10px;
     transition: background .5s ease;
 }
 
