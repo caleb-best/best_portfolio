@@ -426,6 +426,10 @@ button:hover {
     display: none;
 }
 
+.footerlinks li {
+    margin: 0 10px;
+}
+
 
 }/*1024px LAYOUT ENDS HERE  */
 
@@ -513,12 +517,21 @@ header {
 }
 
 .navlinks li {
-    padding: 0 10px;
+    padding: 0 5px;
     margin-bottom: 20px;
 }
 
 h1 {
     font-size: 2rem;
+}
+
+#about {
+    height: 100%;
+    margin: 0;
+}
+
+#services {
+    margin: 0;
 }
 
 
