@@ -13,7 +13,7 @@ My name is Caleb Best, I am a Graphic Designer and Web Developer my goal is to c
 See my portfolio for samples of my work.
 ## Preview ##
 
-[Preview]()
+[Preview](assets/images/screencapture-file-Users-calebbest-Desktop-best-portfolio-index-html-2021-03-04-22_27_50.png)
 
 ## Technologies ##
 This portfolio was developed through the use of purely HTML and CSS it is responsive on all devices and is just a sample of the quality of work I can provide.
