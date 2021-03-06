@@ -524,6 +524,9 @@ header {
 h1 {
     font-size: 2rem;
 }
+h2 {
+    text-align: center;
+}
 
 #about {
     height: 100%;
