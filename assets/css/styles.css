@@ -66,54 +66,52 @@ a:hover {
 
 
 /* NAVIGATION */
-
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 5%;
-    background-color: #34558b;
     position: fixed;
     width: 100%;
-    z-index: 10;
 }
 
-.navlogo {
-    width: 4%;
-
-}
-.navlinks ul {
-    list-style: none;
+#logo {
+    width: 30%;
+    background-repeat: no-repeat;
 }
 
-.navlinks li{
-    display: inline-block;
-    padding: 0 50px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-size: 16px;
-    font-weight: 600;
+.navbar {
+    background-color: #34558b;
+    height: 80px;
 }
 
+.navbar-item:hover {
+    background-color: transparent;
+    color: #1f3455;
+}
 
+.navbar a {
+    color: #fff;
+}
 
-button {
-    padding: 9px 25px;
-    background-color: rgb(240, 240, 240, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-transform: uppercase;
+.navbar a:hover {
+    background-color: rgb(230, 227, 227);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-start {
+    margin: 0 auto;
+}
+
+.button.is-link.is-outlined {
+    color: #fff;
+    border-color: #fff;
+    
+}
+
+.button.is-link.is-outlined:hover {
     color: #34558b;
-    font-weight: 600;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-}
-
-button:hover {
-    background-color: rgb(240, 240, 240, 0.8);
+    background-color: #fff;
 }
 
 
@@ -174,10 +172,16 @@ button:hover {
     text-align: left;
 }
 
-.abouttext button {
-    width: 50%;
-    margin: 30px 0;
+.button.is-info.is-outlined {
+    border-color: #fff;
+    color: #fff;
 }
+
+.button.is-info.is-outlined:hover {
+    background-color: #22395da1;
+    border-color: #2b446d;
+}
+
 
 /* Services Section Here */
 #services {
@@ -374,6 +378,24 @@ button:hover {
     font-size: 30px;
 }
 
+/* Modal Card Styling */
+
+.modal-car-head {
+    background-image: url(../images/HomePage.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 1024px LAYOUT STARTS HERE */
 @media screen and (max-width: 1024px) {
 
@@ -382,9 +404,6 @@ button:hover {
     padding: 0 20px;
 }
 
-.navlogo {
-    width: 6%;
-}
 
 #about {
     flex-direction: column;
@@ -504,11 +523,6 @@ button:hover {
 * {
     margin: 0 auto;
     padding: 0;
-}
-
-.navlogo {
-    width: 10%;
-    margin-bottom: 20px;
 }
 
 header {

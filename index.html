@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../best_portfolio/assets/css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
   <link rel="stylesheet" href="../best_portfolio/assets/css/styles.css">
   <title>Caleb Best | Portfolio</title>
   <script src="https://kit.fontawesome.com/ad911b872e.js" crossorigin="anonymous"></script>
@@ -13,26 +14,43 @@
 <body>
   <header>
     <!-- Navigation Starts Here -->
-    
-    <img src="../best_portfolio/assets/images/Personal logo.svg" alt="navlogo" class="navlogo">
-     <nav>
-      <ul class="navlinks">
-        <li>
-          <a href="#about">About Me</a>
-        </li>
-        <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
-          <a href="#myWork">My Work</a>
-        </li>
-        <li>
-          <a href="#footer">Contact</a>
-        </li>
-      </ul>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a href="#" class="navbar-item">
+            <img src="../best_portfolio/assets/images/Personal logo.svg" id="logo" alt="navlogo">
+          </a>
+
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navLinks" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="#about" class="navbar-item">About Me</a>
+            <a href="#services" class="navbar-item">Services</a>
+            <a href="#myWork" class="navbar-item">My Work</a>
+            <a href="#footer" class="navbar-item">Contact</a>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a href="../best_portfolio/assets/images/Best_Resume.pdf" target ="blank" class="resume">
+                  <button class="button is-link is-outlined">Resume </button>
+                </a>
+              </div>
+            </div>
+          </div>
       </nav>
-    
-      <a href="../best_portfolio/assets/images/Best_Resume.pdf" target ="blank" class="resume"><button >Resume </button></a>
+
+
+
+
+
+
   </header>
 
 
@@ -40,7 +58,7 @@
   <section id="landing">
    <h1>Caleb Best</h1>
    <h2>Graphic Designer | Fullstack Developer</h2>
-  <a href="#about"><button>Learn More</button></a>
+  <a href="#about"><button class="button is-info is-outlined">Learn More</button></a>
   </section>
   
   
@@ -63,7 +81,7 @@
             Ea voluptatibus fugiat, natus quasi dignissimos soluta corporis totam architecto dolore consequuntur explicabo exercitationem, voluptatem minima eum nihil, adipisci consequatur 
             quae modi sint? Inventore nulla numquam minima ratione mollitia ipsum vero porro nobis!
           </p>
-          <button>RESUME</button>
+          <button class="button is-link is-outlined">RESUME</button>
          </div>
          
       </section>
@@ -103,14 +121,14 @@
         <div class="workContainer"> 
           <div class="overlaytext">
             <h4>Portfolio Item 2</h4>
-              <button>View Project</button>
+              <button id="portfolio1" class="button is-link is-outlined">View Project</button>
           </div>
         </div>
 
         <div class="workContainer2">
           <div class="overlaytext">
             <h4>Portfolio Item 2</h4>
-              <button>View Project</button>
+              <button class="button is-link is-outlined">View Project</button>
           </div>
           
 
@@ -119,16 +137,41 @@
         <div class="workContainer3">
           <div class="overlaytext">
             <h4>Portfolio Item 3</h4>
-              <button>View Project</button>
+              <button class="button is-link is-outlined">View Project</button>
           </div>
         </div>
 
         <div class="workContainer4">
           <div class="overlaytext">
             <h4>Portfolio Item 4</h4>
-              <button>View Project</button>
+              <button class="button is-link is-outlined">View Project</button>
           </div>
         </div>
+
+
+        <!-- CARD MODALS HERE -->
+        <div class="modal is-clipped" id="musicModal">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">Vibe Musical</p>
+              <button class="delete" aria-label="close"id="closeModal"></button>
+            </header>
+            <section class="modal-card-body ">
+              <figure>
+                <img src="../best_portfolio/assets/images/HomePage.png" alt="vibe musical preview">
+              </figure>
+            </section>
+            <footer class="modal-card-foot">
+              <button class="button is-success">Live Project</button>
+              <button class="button">Repository</button>
+            </footer>
+          </div>
+        </div>
+
+
+
+
 
       </section>
 
@@ -157,6 +200,6 @@
 
 </main>
 
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="../best_portfolio/assets/js/script.js"></script>
 </body>
