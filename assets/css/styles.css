@@ -93,7 +93,17 @@ h3.title {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 10px 0 30px 0;
+    margin: 30px 0 30px 0;
+    padding: 30px;
+    background-color: rgba(224, 223, 223, 0.514);
+}
+
+#cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 #services .subtitle{
@@ -257,5 +267,70 @@ h5.title {
 
 #footer p {
     color: rgba(255, 255, 255, 0.582);
+}
+
+@media screen and (min-width: 768px) {
+    #services .card {
+        height: 40vh;
+        width: 80%;
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    
+    }
+
+    .navbar-item {
+        color: #fff;
+    }
+
+    .button.is-link.is-outlined {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    
+    #about figure img {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .navbar-item {
+        color: #fff;
+    }
+
+    .navbar-start {
+        display: flex;
+        justify-content: right;
+    }
+
+    .button.is-link.is-outlined {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    #cardContainer {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+    
+    
+    #services .card {
+        height: 33vh;
+        width: 60%;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    
+    }
+
+
+
 }
 
