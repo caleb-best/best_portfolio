@@ -51,22 +51,25 @@
 
           <!-- Landing Starts Here -->
   <section id="landing">
-   <h1>Caleb Best</h1>
-   <h2>Graphic Designer | Fullstack Developer</h2>
-  <a href="#about"><button class="button is-info is-outlined">Learn More</button></a>
+    <div class="container">
+      <h1 class="title is-$white">Caleb Best</h1>
+      <h2 class="subtitle is-$white">Graphic Designer | Fullstack Developer</h2>
+      <a href="#about"><button class="button is-info is-outlined">Learn More</button></a>
+    </div>
+
   </section>
   
   
   
   <main>
             <!-- ABOUT STARTS HERE -->
-      <section id="about">
-        <div class="headshot">
-          <img src="../best_portfolio/assets/images/IMG_8882.JPG" alt="headshot of Caleb Best">
-        </div>
+      <section id="about" class="container is-fullhd">
+        <figure class="is-128x128">
+          <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE7bBbaAMAW7g/profile-displayphoto-shrink_200_200/0/1581458917524?e=1625097600&v=beta&t=BgaslomOVITtzR4NYXOHIcEuai2jfQ1rRmMtqhWLpao" alt="headshot of Caleb Best">
+        </figure>
         
         <div class="abouttext">
-          <h3>About Me</h3>
+          <h3 class="title">About Me</h3>
           
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum esse distinctio veniam numquam accusantium ratione tempore facilis iste nostrum possimus. 
@@ -77,7 +80,7 @@
             quae modi sint? Inventore nulla numquam minima ratione mollitia ipsum vero porro nobis!
           </p>
           <div class="btnContainer">
-            <a class="button is-success">RESUME</a>
+            <a class="button is-success is-outlined">RESUME</a>
           </div>
           
           
@@ -90,36 +93,40 @@
             <!-- Services Starts Here -->
       <section id="services">
         
-        <h3>Services</h3>
-        <ul>
-          <li>
-            <i class="far fa-object-group"></i>
-            <h4>Web Design</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum amet nihil soluta voluptate! Rerum a assumenda vitae possimus est, cupiditate ab consequatur quos beatae dolorem, corrupti unde voluptatibus animi magnam.</p>
-          </li>
-           
-          <li>
-            <i class="fas fa-laptop-code"></i>
-            <h4>Development</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolorem praesentium nobis quidem! Ut inventore commodi ipsum repudiandae vitae laborum magnam, minus possimus accusamus consequatur? Blanditiis architecto laboriosam inventore expedita?</p>
-           </li>
-           <li>
-            <i class="fas fa-pen-nib"></i>
-            <h4>Branding</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nam reiciendis animi quaerat iste exercitationem ad magni. Aut ea mollitia odit perferendis, voluptates omnis necessitatibus voluptatem eos dolorum provident ipsum?</p>
-           </li>
-        </ul>
+        <h3 class="title">Services</h3>
+
+        <div class="card">
+          <div class="card-content">
+            <i class="far fa-object-group fa-5x"></i>
+            <h4 class="subtitle">Web Design</h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <i class="fas fa-laptop-code fa-5x"></i>
+            <h4 class="subtitle">Development</h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <i class="fas fa-laptop-code fa-5x"></i>
+            <h4 class="subtitle">Branding</h4>
+          </div>
+        </div>
+
       </section>
 
 
 
             <!-- MY WORK STARTS HERE -->
-   <h3>My Work</h3>
+   <h3 class="title">My Work</h3>
       <section id="myWork">
         
         <div class="workContainer"> 
           <div class="overlaytext">
-            <h4>Vibe Musical</h4>
+            <h4 class="">Vibe Musical</h4>
               <button id="portfolio1" class="button is-link is-outlined">View Project</button>
           </div>
         </div>
@@ -187,7 +194,7 @@
   
 
   <footer id="footer">
-    <h5>GET IN TOUCH</h5>
+    <h5 class="title">GET IN TOUCH</h5>
     <div class="footerlinks">
       <ul>
         <li>
